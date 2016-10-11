@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-myorg-googletoolbar-GoogleActionListener.instance">
+                <!--org.company.processmaker.GoogleActionListener-->
+                <attr name="displayName" stringvalue="NOT-USED"/>
+                <attr name="instanceCreate" newvalue="org.company.processmaker.GoogleActionListener"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-company-googletoolbar-TreeFilesTopComponent.instance">
+                <!--org.company.processmaker.TreeFilesTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.company.processmaker.TreeFilesTopComponent"/>
+                <attr name="preferredID" stringvalue="TreeFilesTopComponent"/>
+                <attr
+                    bundlevalue="org.company.processmaker.Bundle#CTL_TreeFilesAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/company/processmaker/icon24.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="org-myorg-googletoolbar-GoogleActionListener.shadow">
+                <!--org.company.processmaker.GoogleActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/org-myorg-googletoolbar-GoogleActionListener.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-company-googletoolbar-TreeFilesTopComponent.shadow">
+                <!--org.company.processmaker.TreeFilesTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-company-googletoolbar-TreeFilesTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="TreeFilesTopComponent.settings">
+                <!--org.company.processmaker.TreeFilesTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.company.processmaker.TreeFilesTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="TreeFilesTopComponent.wstcref">
+                    <!--org.company.processmaker.TreeFilesTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="TreeFilesTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_company_googletoolbar">
+                <file name="TreeFiles" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.company.processmaker.TreeFilesTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.company.googletoolbar//TreeFiles//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="company">
+                    <folder name="processmaker">
+                        <file name="TreeFilesTopComponent">
+                            <!--org.company.processmaker.TreeFilesTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_company_googletoolbar/TreeFiles.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_company_googletoolbar">
+                <file name="TreeFiles.instance">
+                    <!--org.company.processmaker.TreeFilesTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.company.processmaker.TreeFilesTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.company.processmaker.TreeFilesTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
