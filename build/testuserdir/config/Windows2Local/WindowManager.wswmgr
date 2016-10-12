@@ -3,8 +3,8 @@
 <windowmanager version="2.1">
     <main-window>
   <joined-properties
-   x="85"
-   y="24"
+   x="91"
+   y="63"
    width="1152"
    height="684"
    relative-x="0.0"
@@ -45,6 +45,8 @@
     <maximized-mode editor="editor"/>
     <toolbar configuration="Standard" preferred-icon-size="24"/>
     <tc-list>
+  <tc-id id="MultiView-javascript9BE7A9A5text#002Ehistory#007C"/>
+  <tc-id id="MultiView-xml#002Etex23F1BEEFtext#002Ehistory#007C"/>
   <tc-id id="TreeFilesTopComponent"/>
   <tc-id id="Welcome"/>
     </tc-list>

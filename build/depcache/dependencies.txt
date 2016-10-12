@@ -318,7 +318,6 @@ javax.swing.JPasswordField
 java.lang.Object
 java.awt.Dimension
 javax.swing.GroupLayout$Alignment
-org.openide.util.Exceptions
 javax.swing.JTextField
 java.lang.Short
 org.company.processmaker.SSH

@@ -448,25 +448,25 @@ public class MainForm extends javax.swing.JFrame {
             jButton2.setEnabled(true);
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
             String msg = "Connection Details is not valid!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (MySQLSyntaxErrorException ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (SQLException ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (Exception ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
@@ -521,13 +521,13 @@ public class MainForm extends javax.swing.JFrame {
             
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
             String msg = "Connection Details is not valid!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton1.setEnabled(true);
         } catch (Exception ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
@@ -646,25 +646,25 @@ public class MainForm extends javax.swing.JFrame {
             jButton2.setEnabled(true);
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
             String msg = "Connection Details is not valid!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (MySQLSyntaxErrorException ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Error in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (SQLException ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
             jButton2.setEnabled(true);
         } catch (Exception ex) {
-            Exceptions.printStackTrace(ex);
+            //Exceptions.printStackTrace(ex);
             String msg = "Errot in connect to Mysql server!";
             NotifyDescriptor nd = new NotifyDescriptor.Message(msg, NotifyDescriptor.INFORMATION_MESSAGE);
             DialogDisplayer.getDefault().notify(nd);
