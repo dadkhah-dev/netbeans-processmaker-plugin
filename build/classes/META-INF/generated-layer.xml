@@ -4,14 +4,14 @@
 <filesystem>
     <folder name="Actions">
         <folder name="File">
-            <file name="org-myorg-googletoolbar-GoogleActionListener.instance">
+            <file name="org-myorg-processmaker-GoogleActionListener.instance">
                 <!--org.company.processmaker.GoogleActionListener-->
                 <attr name="displayName" stringvalue="NOT-USED"/>
                 <attr name="instanceCreate" newvalue="org.company.processmaker.GoogleActionListener"/>
             </file>
         </folder>
         <folder name="Window">
-            <file name="org-company-googletoolbar-TreeFilesTopComponent.instance">
+            <file name="org-company-processmaker-TreeFilesTopComponent.instance">
                 <!--org.company.processmaker.TreeFilesTopComponent-->
                 <attr
                     methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
@@ -25,18 +25,18 @@
     </folder>
     <folder name="Toolbars">
         <folder name="File">
-            <file name="org-myorg-googletoolbar-GoogleActionListener.shadow">
+            <file name="org-myorg-processmaker-GoogleActionListener.shadow">
                 <!--org.company.processmaker.GoogleActionListener-->
-                <attr name="originalFile" stringvalue="Actions/File/org-myorg-googletoolbar-GoogleActionListener.instance"/>
+                <attr name="originalFile" stringvalue="Actions/File/org-myorg-processmaker-GoogleActionListener.instance"/>
                 <attr intvalue="0" name="position"/>
             </file>
         </folder>
     </folder>
     <folder name="Menu">
         <folder name="Window">
-            <file name="org-company-googletoolbar-TreeFilesTopComponent.shadow">
+            <file name="org-company-processmaker-TreeFilesTopComponent.shadow">
                 <!--org.company.processmaker.TreeFilesTopComponent-->
-                <attr name="originalFile" stringvalue="Actions/Window/org-company-googletoolbar-TreeFilesTopComponent.instance"/>
+                <attr name="originalFile" stringvalue="Actions/Window/org-company-processmaker-TreeFilesTopComponent.instance"/>
             </file>
         </folder>
     </folder>
@@ -65,10 +65,10 @@
     </folder>
     <folder name="xml">
         <folder name="entities">
-            <folder name="org_company_googletoolbar">
+            <folder name="org_company_processmaker">
                 <file name="TreeFiles" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
                     <!--org.company.processmaker.TreeFilesTopComponent-->
-                    <attr name="hint.originalPublicID" stringvalue="-//org.company.googletoolbar//TreeFiles//EN"/>
+                    <attr name="hint.originalPublicID" stringvalue="-//org.company.processmaker//TreeFiles//EN"/>
                 </file>
             </folder>
         </folder>
@@ -78,14 +78,14 @@
                     <folder name="processmaker">
                         <file name="TreeFilesTopComponent">
                             <!--org.company.processmaker.TreeFilesTopComponent-->
-                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_company_googletoolbar/TreeFiles.instance"/>
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_company_processmaker/TreeFiles.instance"/>
                         </file>
                     </folder>
                 </folder>
             </folder>
         </folder>
         <folder name="lookups">
-            <folder name="org_company_googletoolbar">
+            <folder name="org_company_processmaker">
                 <file name="TreeFiles.instance">
                     <!--org.company.processmaker.TreeFilesTopComponent-->
                     <attr

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 AutoUpdate-Show-In-Client: true
-OpenIDE-Module: org.company.googletoolbar
+OpenIDE-Module: org.company.processmaker
 OpenIDE-Module-Localizing-Bundle: org/company/processmaker/Bundle.properties
 OpenIDE-Module-Requires: org.openide.windows.WindowManager
 OpenIDE-Module-Specification-Version: 1.0.0

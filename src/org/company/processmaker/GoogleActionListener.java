@@ -15,7 +15,7 @@ import org.openide.util.actions.Presenter;
 
 @ActionID(
         category = "File",
-        id = "org.myorg.googletoolbar.GoogleActionListener")
+        id = "org.myorg.processmaker.GoogleActionListener")
 @ActionRegistration(
         lazy = false,
         displayName = "NOT-USED")

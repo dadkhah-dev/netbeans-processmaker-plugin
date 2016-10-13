@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.company.processmaker">
+    <module_version install_time="1476340614179" last="true" origin="installer" specification_version="1.0.0">
+        <file crc="1376775286" name="config/Modules/org-company-processmaker.xml"/>
+        <file crc="4212476859" name="modules/ext/mysql-connector-java-5.1.23-bin.jar"/>
+        <file crc="385964122" name="modules/org-company-processmaker.jar"/>
+    </module_version>
+</module>

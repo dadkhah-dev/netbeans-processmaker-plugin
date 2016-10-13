@@ -49,7 +49,7 @@ import org.w3c.dom.Node;
  * Top component which displays something.
  */
 @ConvertAsProperties(
-        dtd = "-//org.company.googletoolbar//TreeFiles//EN",
+        dtd = "-//org.company.processmaker//TreeFiles//EN",
         autostore = false
 )
 @TopComponent.Description(
@@ -58,7 +58,7 @@ import org.w3c.dom.Node;
         persistenceType = TopComponent.PERSISTENCE_ALWAYS
 )
 @TopComponent.Registration(mode = "explorer", openAtStartup = true)
-@ActionID(category = "Window", id = "org.company.googletoolbar.TreeFilesTopComponent")
+@ActionID(category = "Window", id = "org.company.processmaker.TreeFilesTopComponent")
 @ActionReference(path = "Menu/Window" /*, position = 333 */)
 @TopComponent.OpenActionRegistration(
         displayName = "#CTL_TreeFilesAction",
